@@ -1,0 +1,23 @@
+
+
+footer h5 {
+    font-size: 1.25rem; 
+  }
+  
+  footer h6 {
+    font-size: 1rem; 
+  }
+  
+  @media (min-width: 992px) {
+    .row.justify-content-between {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .col-lg-2 {
+      flex: 0 0 auto;
+      width: auto;
+      margin-right: 1.5rem;
+    }
+  }
+  

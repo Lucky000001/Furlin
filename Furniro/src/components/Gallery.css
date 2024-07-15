@@ -1,0 +1,85 @@
+
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #fcfdfd;
+    color: #000000;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.3em;
+    text-align: center;
+  }
+  
+  .em {
+    color: #232027;
+  }
+  
+  .gallery {
+    margin-top: 30px;
+  }
+  
+  .gallery ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery ul li {
+    margin: 20px; 
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    flex: 0 0 calc(33.33% - 40px); 
+  }
+  
+  .gallery ul li img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  @media (max-width: 992px) {
+    .gallery ul li {
+      flex: 0 0 calc(50% - 40px); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .gallery ul li {
+      flex: 0 0 calc(100% - 40px);
+    }
+  }
+  
+  .gallery ul li:hover {
+    transform: scale(1.05) translateY(-10px); 
+    z-index: 1;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); 
+  }
+  
+  .gallery ul li:hover img {
+    filter: brightness(0.7); 
+  }
+  
+  .attribution {
+    font-family: 'Consolas', monospace;
+    color: #000;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  
+  .attribution a {
+    color: #4c8d7c;
+  }
+  

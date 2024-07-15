@@ -1,0 +1,17 @@
+.prodet{
+    font-size: 0.75em;
+}
+
+.prodetsm{
+    font-size: smaller;
+}
+
+/* product.css */
+
+.product-image {
+    width: 100%; /* Ensure images take up full width of their container */
+    height: 200px; /* Set a fixed height for uniformity, adjust as needed */
+    object-fit: cover; /* Ensure images cover the container without stretching */
+  }
+  
+

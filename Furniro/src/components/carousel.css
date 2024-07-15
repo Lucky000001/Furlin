@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .btn-cr{
+    background-color: rgb(184, 143, 48);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px
+  }
+
+  .carousel-box{
+    background-color: rgb(252, 248, 242);
+  }
+  
+  .carousel-caption h3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+  }
+  
+  .carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .carousel-item {
+    height: 400px; /* You can adjust the height as needed */
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Ensure the carousel items have the same height */
+.carousel-item {
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  /* Ensure images cover the entire carousel item without stretching */
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Style the previous and next control buttons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Round shape */
+    padding: 10px; /* Add some padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+  }
+  
+  /* Ensure the previous control button icon is visible */
+  .carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23fff" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M3.854 0L5.146 1.146 2.293 4 5.146 6.854 3.854 8l-4-4z"%3E%3C/path%3E%3C/svg%3E');
+  }
+  
+  
+  /* Ensure the next control button icon is visible */
+  .carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23fff" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M4.146 0L2.854 1.146 5.707 4 2.854 6.854 4.146 8l4-4z"%3E%3C/path%3E%3C/svg%3E');
+  }
+  
+  
+  /* Optional: Style the captions */
+  .carousel-caption h3, .carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    display: inline-block;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+  }
+  .carousel-caption p {
+    padding: 0.2rem 0.5rem; /* Adjust padding as needed */
+  }
+  
+  
